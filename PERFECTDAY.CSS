@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: "Quicksand", "Segoe UI", sans-serif;
+    background-color: #e1bf94;
+    color: #6e3f1a;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+h2 {
+    font-family: "Quicksand", "Segoe UI", sans-serif;
+    color: #6e3f1a;
+    text-align: left;
+}
+/* Text + image side by side */
+.split-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.split-layout h2 {
+    flex: 1;
+    text-align: left;
+}
+
+.split-layout img {
+    width: 350px;
+    height: auto;
+}
+
